@@ -178,6 +178,4 @@ RescueBite/
 └── start-services.ps1
 ```
 
-## Diagram generation prompt
 
-> Create a clean, professional 16:9 landscape microservices architecture diagram for **RescueBite – Food Waste Management and Redistribution Platform**. Use a white background, blue and green palette, labelled rounded rectangles, clear arrows, and an academic product-design style. Put Customer, Food Provider, Charity, Administrator, Swagger UI, and Postman at the top. Route them through API Gateway (Port 8080). Show six services: User Management (8081), Food Provider Management (8082), Food Listing Management (8083), Order Management (8084), Payment Management (8085), and Notification Management (8086). Connect each service to an individual MongoDB database. Label interactions: verify provider, reserve/restore stock, order events, confirm payment, and payment events. Add a small note: “Pickup and collection-code workflow; live delivery tracking is future scope.”
