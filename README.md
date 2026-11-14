@@ -25,30 +25,7 @@ Restaurants, bakeries, supermarkets, and cafés frequently have edible food left
 
 RescueBite uses six independent Spring Boot microservices. Each service owns its own MongoDB database and exposes a REST API. An optional API Gateway provides a single entry point for client requests.
 
-```mermaid
-flowchart TB
-    Client[Customer / Provider / Charity / Admin\nSwagger UI or Postman] --> Gateway[API Gateway\nPort 8080]
-
-    Gateway --> User[User Management\nPort 8081]
-    Gateway --> Provider[Food Provider Management\nPort 8082]
-    Gateway --> Listing[Food Listing Management\nPort 8083]
-    Gateway --> Order[Order Management\nPort 8084]
-    Gateway --> Payment[Payment Management\nPort 8085]
-    Gateway --> Notification[Notification Management\nPort 8086]
-
-    User --> UDB[(User DB)]
-    Provider --> PDB[(Provider DB)]
-    Listing --> LDB[(Listing DB)]
-    Order --> ODB[(Order DB)]
-    Payment --> PayDB[(Payment DB)]
-    Notification --> NDB[(Notification DB)]
-
-    Listing -->|verify provider| Provider
-    Order -->|reserve / restore stock| Listing
-    Order -->|order events| Notification
-    Payment -->|confirm payment| Order
-    Payment -->|payment events| Notification
-```
+![RescueBite Architecture Diagram](images/rescuebite-architecture-diagram.png)
 
 ## Services
 
