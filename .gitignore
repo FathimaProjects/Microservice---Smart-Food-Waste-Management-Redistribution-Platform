@@ -1,0 +1,28 @@
+# Compiled class files & build artifacts
+target/
+**/target/
+*.class
+*.jar
+*.war
+
+# Log files
+*.log
+**/hs_err_pid*.log
+
+# IDE & Editor files
+.vscode/
+**/.vscode/
+.idea/
+**/.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS Generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker volumes
+mongo-data/
+**/mongo-data/

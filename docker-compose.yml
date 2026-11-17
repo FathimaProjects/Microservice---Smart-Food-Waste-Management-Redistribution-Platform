@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  # Shared MongoDB instance hosting distinct databases per microservice
+  mongodb:
+    image: mongo:6.0
+    container_name: rescuebite-mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
+
