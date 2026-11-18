@@ -1,6 +1,5 @@
 # Food Provider Management Service (RescueBite)
 
-**Assigned to:** Member 1  
 **Port:** `8082`  
 **Database:** `rescuebite_provider_db` (MongoDB)  
 **Swagger UI:** `http://localhost:8082/swagger-ui.html`
