@@ -1,6 +1,5 @@
 # Food Listing Management Service (RescueBite)
 
-**Assigned to:** Member 3  
 **Port:** `8083`  
 **Database:** `rescuebite_listing_db` (MongoDB)  
 **Swagger UI:** `http://localhost:8083/swagger-ui.html`
