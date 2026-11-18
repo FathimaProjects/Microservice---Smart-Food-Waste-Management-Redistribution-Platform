@@ -1,3 +1,4 @@
+
 # Maven build files
 target/
 **/target/
@@ -7,13 +8,19 @@ target/
 
 # Log files
 *.log
+**/hs_err_pid*.log
 
 # IDE settings
 .vscode/
+**/.vscode/
 .idea/
+**/.idea/
 *.iml
+*.ipr
+*.iws
 
-# Windows files
+# Operating system files
+.DS_Store
 Thumbs.db
 desktop.ini
 
