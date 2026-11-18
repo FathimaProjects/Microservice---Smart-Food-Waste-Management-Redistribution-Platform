@@ -1,6 +1,6 @@
 # Notification Service (RescueBite)
 
-**Assigned to:** Member 3  
+ 
 **Port:** `8086`  
 **Database:** `rescuebite_notification_db` (MongoDB)  
 **Swagger UI:** `http://localhost:8086/swagger-ui.html`
