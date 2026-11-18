@@ -1,4 +1,5 @@
-# Compiled class files & build artifacts
+
+# Maven build files
 target/
 **/target/
 *.class
@@ -9,7 +10,7 @@ target/
 *.log
 **/hs_err_pid*.log
 
-# IDE & Editor files
+# IDE settings
 .vscode/
 **/.vscode/
 .idea/
@@ -18,11 +19,18 @@ target/
 *.ipr
 *.iws
 
-# OS Generated files
+# Operating system files
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# Docker volumes
+# Docker data
 mongo-data/
 **/mongo-data/
+
+# Environment files
+.env
+.env.*
+
+# Local configuration containing credentials
+**/src/main/resources/application.properties
