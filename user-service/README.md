@@ -1,6 +1,5 @@
 # User Management Service (RescueBite)
-
-**Assigned to:** Member 1  
+ 
 **Port:** `8081`  
 **Database:** `rescuebite_user_db` (MongoDB)  
 **Swagger UI:** `http://localhost:8081/swagger-ui.html`
