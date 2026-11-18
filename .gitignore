@@ -1,0 +1,29 @@
+# Maven build files
+target/
+**/target/
+*.class
+*.jar
+*.war
+
+# Log files
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Windows files
+Thumbs.db
+desktop.ini
+
+# Docker data
+mongo-data/
+**/mongo-data/
+
+# Environment files
+.env
+.env.*
+
+# Local configuration containing credentials
+**/src/main/resources/application.properties
