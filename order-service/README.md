@@ -1,6 +1,5 @@
 # Order Management Service (RescueBite)
 
-**Assigned to:** Member 2  
 **Port:** `8084`  
 **Database:** `rescuebite_order_db` (MongoDB)  
 **Swagger UI:** `http://localhost:8084/swagger-ui.html`
